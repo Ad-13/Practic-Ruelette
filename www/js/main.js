@@ -1,0 +1,1 @@
+$(function(){console.log("Hi!111"),$(document).ready(function(){$("#to-up").click(function(o){o.preventDefault(),$("body,html").animate({scrollTop:0},1500)})}),$("#slider-1").owlCarousel({autoplay:!0,loop:!0,margin:10,nav:!0,navText:!1,responsive:{0:{items:1},600:{items:3},1e3:{items:5}}})});
